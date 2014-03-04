@@ -1,0 +1,50 @@
+body{
+	font-family: 'pxn-light', sans-serif;
+	font-size: 3em;
+	background-color: #15b6a1;
+	color: #fff;
+	text-align: center;
+	line-height: 1;
+}
+#content-container {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 100px;
+	min-width: 307px;
+}
+.about-me {
+	margin-bottom: 50px;
+}
+.about-me .name {
+	font-family: 'pxn-bold', sans-serif;
+}
+.social-links {
+	list-style-type: none;
+	margin: 0 auto;
+	width: 307px;
+	margin-top: 50px;
+}
+.social-links li {
+	float: left;
+	margin-right: 50px;
+}
+.social-links li.last {
+	margin-right: 0;
+}
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+.clear:after {
+    clear: both;
+}
+@font-face {
+	font-family: 'pxn-bold';
+	src: url('fonts/pxn_bold.woff') format('woff');
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'pxn-light';
+	src: url('fonts/pxn_light.woff') format('woff');
+}
